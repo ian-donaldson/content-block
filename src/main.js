@@ -26,7 +26,7 @@ function paintSettings () {
 	document.getElementById('slider-id-01').value = width;
 	document.getElementById('slider-id-02').value = height;
 	document.getElementById('slider-id-03').value = zoom;
-} 
+}
 
 function paintSliderValues () {
 	document.getElementById('slider-id-01-val').innerHTML = document.getElementById('slider-id-01').value;
